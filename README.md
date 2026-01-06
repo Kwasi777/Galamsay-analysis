@@ -16,4 +16,16 @@ This project provides an automated tool for analyzing illegal small-scale mining
 2. **Install Dependencies**:
    Open your terminal and run:
    ```bash
+
    pip install pandas openpyxl flask
+
+3. **Run the Script:**
+    python main.py
+    python main2.py
+
+
+4. **Access the Results: Once the server starts, open your browser and go to:**
+    http://127.0.0.1:5000/api/results
+
+**API Endpoints**
+GET /api/results: Returns the latest analysis results including total sites, regional averages, and cities exceeding the threshold of 10 sites.
